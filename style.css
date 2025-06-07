@@ -12,15 +12,74 @@ body h1 {
 body div {
     margin: 1rem;
     font-size: 2.4rem;
-}
-
-body div input, body div label {
-    margin: auto 1rem auto 1rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
 }
 
 body div input {
-    height: 1.3rem;
+    height: 1.5rem;
     width: 12rem;
     border-radius: 3.5px;
     border-style: none;
 }
+
+
+#last-name-section {
+    margin-left: 12rem;
+}
+
+#age-section {
+    margin-left: 12rem;
+}
+
+#email-section {
+    margin-left: 19rem;
+}
+
+#confirm-password-section {
+    margin-left: 14.5rem;
+}
+
+#positions-section input, #programming-languages-section input  {
+    width: 1rem;
+    height: 1rem;
+}
+
+#positions-section p, #programming-languages-section p  {
+    display: inline;
+}
+
+#buttons-div {
+    justify-content: space-around;
+}
+
+#submit, #reset {
+    color: white;
+    background-color: orangered;
+    height: 2.4rem;
+    width: 15rem;
+    font-size: 1.3rem;
+    margin-top: 2.4rem auto;
+    font-weight: 500;
+}
+
+#gender {
+    height: 1.7rem;
+    width: 5rem;
+    border-radius: 5px;
+    margin-left: 5.5rem;
+}
+
+#first-name {
+    margin-left: 1.5rem;
+}
+
+#last-name {
+    margin-left: 3.5rem;
+}
+
+#age {
+    margin-left: 10.5rem;
+}
+
