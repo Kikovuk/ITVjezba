@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <h1>
+            Application Form
+        </h1>
+
+        <div>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required> 
+
+        </div>
+        
+        <div>
+            <label for="birthday">Date of birth:</label>
+            <input type="date" id="birthday" name="birthday">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" max="120">
+        </div>
+
+        <div>
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email address">
+        </div>
+
+        <div>
+            <label for="positions">Positions Available: </label>
+            <input type="radio" name="junior" id="positions" value="Junior Developer">
+            <input type="radio" name="junior" id="positions" value="Mid-level Developer">
+            <input type="radio" name="junior" id="positions" value="Senior Developer">
+        </div>
+
+        <div>
+            <p>Programming Langugaes:</p>
+            <input type="checkbox" id="java" name="java">
+            <label for="java">Java</label>
+            <input type="checkbox" id="java-script" name="java-script">
+            <label for="javascript">Java Script</label>
+            <input type="checkbox" id="python" name="python">
+            <label for="python">Python</label>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password"  name="password" required min="8">
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password"  name="confirm-password" required min="8">
+        </div>
+
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </main>
 </body>
 </html>
